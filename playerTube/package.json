@@ -1,0 +1,17 @@
+{
+  "name": "playertube",
+  "version": "1.0.0",
+  "description": "inspired player of youtube(API)",
+  "keywords": [
+    "mongoose",
+    "express",
+    "node"
+  ],
+  "license": "ISC",
+  "author": "Deepankar Pant",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
