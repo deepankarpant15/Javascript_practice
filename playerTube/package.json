@@ -9,9 +9,16 @@
   ],
   "license": "ISC",
   "author": "Deepankar Pant",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev" : "nodemon src/index.js"
+    
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
   }
 }
